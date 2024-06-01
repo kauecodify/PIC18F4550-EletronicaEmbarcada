@@ -141,6 +141,14 @@ Codificação
 
 ![Código](codigo.png)
 
+b. TRISC = 0X00; configura todos os pinos do Port C como saídas digitais.
+
+c. if (PORTD.F0 == 0){ verifica se o primeiro pino do Port D está em nível baixo (0).
+
+d. delay_ms(2000); pausa a execução do programa por 2 segundos.
+
+**10 em código**
+
 
 
 

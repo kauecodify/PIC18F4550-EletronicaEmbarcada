@@ -24,7 +24,7 @@ Tempo do Ciclo de Máquina = 1 / Frequência do ClockTempo
 Instruções que exigem múltiplos ciclos de clock têm seu tempo total calculado multiplicando o número de ciclos pelo tempo do ciclo de máquina.
 
 
-** 2 - memória volátil e a memória não-volátil**
+**2 - memória volátil e a memória não-volátil**
 
 Volátil: quando seu conteúdo é perdido ou apagado assim que a energia é cortada. Nesse caso, a memória perde a sua função e para de funcionar.
 
@@ -46,11 +46,12 @@ capacidade total é de 65.536 bytes, que se convertem em 64 KB.
 
 ![circuit](circuit.png)
 
+**5**
 Número de Endereços: Com 16 bits de endereçamento, o número total de endereços possíveis é 2^16 = 65.536 ou 64kb.
 
 Tamanho de Cada Unidade de Armazenamento:O endereço refere-se a um byte (8 bits) de dados. (8*8=64kb)
 
- I/O (entrada e saída digital): 35
+I/O (entrada e saída digital): 35
 
 Porta A: 6 pinos (RA0 a RA5)
 Porta B: 8 pinos (RB0 a RB7)
@@ -102,7 +103,7 @@ processadores embutidos e sistemas onde a eficiência, a previsibilidade do dese
 
 acessando a memória d entrada e saída (E/S), possui um total de 7 portas disponíveis (Porta A até Porta G), com um total de 45 pinos que podem ser configurados como entradas ou saídas digitais.
 
-**resistor PULL-UP**
+**6 - resistor PULL-UP**
 Um resistor de pull-up é usado em circuitos eletrônicos para garantir que um sinal de entrada em um pin (pino) de um dispositivo (como um microcontrolador) seja mantido em um estado lógico alto (1) quando nenhum outro dispositivo está forçando o pino para um estado específico.
 
 **Ativar - resistor de Pull-up no PIC18F4550**
@@ -116,7 +117,7 @@ INTCON2bits.RBPU = 0; // Ativa os resistores de pull-up internos da Porta B
 
 Esses comandos configuram o bit RBPU no registrador INTCON2 para ativar os resistores de pull-up internos da Porta B do PIC18F4550.
 
-**REGISTRADORES PIC18F4550 e suas funções**
+**7 - REGISTRADORES PIC18F4550 e suas funções**
 
 TRISA (Tris register A): usado para configurar os pinos da Porta A (RA0 a RA5) como entradas ou saídas.
 
@@ -126,7 +127,7 @@ TMR2 (Timer2 Register): armazena o valor atual do contador do Timer2.
 
 T1CON (Timer1 Control Register): usado para controlar as configurações e operações do Timer1
 
-**Interrupção**
+**8 - Interrupção**
 
 interrupção em um microcontrolador é um mecanismo que permite que o processador interrompa temporariamente a execução de um programa principal para lidar com uma condição ou evento especial, como entrada de dados de um temporizador.
 

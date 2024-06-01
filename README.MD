@@ -131,6 +131,20 @@ T1CON (Timer1 Control Register): usado para controlar as configurações e opera
 
 interrupção em um microcontrolador é um mecanismo que permite que o processador interrompa temporariamente a execução de um programa principal para lidar com uma condição ou evento especial, como entrada de dados de um temporizador.
 
+**9 - codificação PIC18F4550 (SEMÁFORO)**
+
+Diagrama 
+
+![CIRCUIT](circuit.png)
+
+Codificação
+
+![Código](codigo.png)
+
+
+
+
+
 
 
 

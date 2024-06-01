@@ -135,7 +135,7 @@ interrupção em um microcontrolador é um mecanismo que permite que o processad
 
 Diagrama 
 
-![CIRCUIT](circuit.png)
+![CIRCUIT](circuit2.png)
 
 Codificação
 
